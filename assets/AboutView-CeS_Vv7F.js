@@ -1,0 +1,1 @@
+import{u as n,c as s,a as t,t as c,o as l}from"./index-CCawMiUS.js";const u={class:"about"},p={__name:"AboutView",setup(r){const{t:i,locale:e}=n();function a(){e.value=e.value==="zh-tw"?"en":"zh-tw"}return(o,_)=>(l(),s("div",u,[t("button",{onClick:a},"change"),t("h1",null,c(o.$t("message.hello")),1)]))}};export{p as default};
