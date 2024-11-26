@@ -1,4 +1,4 @@
-import{c as r,a as n,o as a}from"./index-B6Djqddh.js";const i={__name:"Vcard",setup(E){function t(){const o=`
+import{c as a,a as c,o as r}from"./index-Bw4WQEmm.js";const E={__name:"Vcard",setup(d){function l(){const n=`
   BEGIN:VCARD
   VERSION:3.0
   N:Doe;John;;;
@@ -21,4 +21,4 @@ import{c as r,a as n,o as a}from"./index-B6Djqddh.js";const i={__name:"Vcard",se
   CATEGORIES:VIP,Clients
   PHOTO;VALUE=URL:https://example.com/photos/johndoe.jpg
   END:VCARD
-        `.trim();console.log(o)}return(o,e)=>(a(),r("div",null,[e[0]||(e[0]=n("h1",null,"生成並下載 vCard 文件",-1)),n("button",{id:"download-vcard",onClick:t},"下載聯絡人")]))}};export{i as default};
+        `.trim();console.log(n);const e=new Blob([n],{type:"text/vcard"}),t=URL.createObjectURL(e),o=document.createElement("a");o.href=t,o.download="contact.vcf",o.style.display="none",document.body.appendChild(o),o.click(),document.body.removeChild(o),URL.revokeObjectURL(t)}return(n,e)=>(r(),a("div",null,[e[0]||(e[0]=c("h1",null,"生成並下載 vCard 文件",-1)),c("button",{id:"download-vcard",onClick:l},"下載聯絡人")]))}};export{E as default};
