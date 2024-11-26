@@ -1,4 +1,4 @@
-import{c as r,a as c,o as i}from"./index-BpqbnYbv.js";const m={__name:"Vcard",setup(E){function l(){const n=`
+import{c as r,a as c,o as i}from"./index-DH2NZyWc.js";const p={__name:"Vcard",setup(E){function l(){const n=`
   BEGIN:VCARD
   VERSION:3.0
   N:Doe;John;;;
@@ -21,7 +21,7 @@ import{c as r,a as c,o as i}from"./index-BpqbnYbv.js";const m={__name:"Vcard",se
   CATEGORIES:VIP,Clients
   PHOTO;VALUE=URL:https://example.com/photos/johndoe.jpg
   END:VCARD
-        `.trim(),e=new Blob([n],{type:"text/vcard"});console.log(e);const t=URL.createObjectURL(e),o=document.createElement("a");o.href=t,o.download="contact.vcf",o.style.display="none",document.body.appendChild(o),o.click(),document.body.removeChild(o),URL.revokeObjectURL(t)}function a(){const n=`
+        `.trim(),e=new Blob([n],{type:"text/vcard"});console.log(e);const t=URL.createObjectURL(e),o=document.createElement("a");o.href=t,o.download="contact.vcf",document.body.appendChild(o),o.click(),document.body.removeChild(o),URL.revokeObjectURL(t)}function a(){const n=`
   BEGIN:VCARD
   VERSION:3.0
   N:Doe;John;;;
@@ -50,4 +50,4 @@ N:;张三;;;
 FN:张三
 TEL;type=CELL;type=VOICE;type=pref:+86 187 7880 0000
 END:VCARD
-    `.trim(),e=new Blob([n],{type:"text/vcard"}),t=URL.createObjectURL(e),o=document.createElement("a");o.href=t,o.download="contact.vcf",document.body.appendChild(o),o.click(),document.body.removeChild(o),URL.revokeObjectURL(t)}return(n,e)=>(i(),r("div",null,[e[0]||(e[0]=c("h1",null,"生成並下載 vCard 文件",-1)),c("button",{id:"download-vcard",onClick:l},"下載聯絡人1"),c("button",{id:"download-vcard",onClick:a},"下載聯絡人2"),c("button",{id:"download-vcard",onClick:d},"下載聯絡人3")]))}};export{m as default};
+    `.trim(),e=new Blob([n],{type:"text/vcard"}),t=URL.createObjectURL(e),o=document.createElement("a");o.href=t,o.download="contact.vcf",document.body.appendChild(o),o.click(),document.body.removeChild(o),URL.revokeObjectURL(t)}return(n,e)=>(i(),r("div",null,[e[0]||(e[0]=c("h1",null,"生成並下載 vCard 文件",-1)),c("button",{id:"download-vcard",onClick:l},"下載聯絡人1"),c("button",{id:"download-vcard",onClick:a},"下載聯絡人2"),c("button",{id:"download-vcard",onClick:d},"下載聯絡人3")]))}};export{p as default};
