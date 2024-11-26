@@ -1,4 +1,4 @@
-import{c as r,a as n,o as a}from"./index-BQ9MweDl.js";const i={__name:"Vcard",setup(E){function t(){const o=`
+import{c as r,a as n,o as a}from"./index-B6Djqddh.js";const i={__name:"Vcard",setup(E){function t(){const o=`
   BEGIN:VCARD
   VERSION:3.0
   N:Doe;John;;;
